@@ -30,7 +30,7 @@ $databases['default']['default'] = [
   'host' => getenv('DB_HOSTNAME'),
   'port' => getenv('DB_PORT'),
   'namespace' => getenv('DB_NAMESPACE'),
-  'driver' => getenv('DB_DRIVER'),
+  'driver' => 'mysql',
 ];
 
 # ================================================================
