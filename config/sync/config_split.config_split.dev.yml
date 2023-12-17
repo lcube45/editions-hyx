@@ -1,0 +1,16 @@
+uuid: 890de6f9-fb38-4d3a-a309-0d06824640e9
+langcode: fr
+status: true
+dependencies: {  }
+id: dev
+label: dev
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/dev
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }
