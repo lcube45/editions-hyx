@@ -56,6 +56,8 @@ jobs:
       - if: matrix.drupal-release == 'dev'
         run: composer --verbose update
 
+      - run: rm ./web/sites/default/settings.php
+
       - run: ./vendor/bin/drush site-install --verbose --yes --db-url=sqlite://tmp/site.sqlite
 
       - run: ./vendor/bin/drush runserver $SIMPLETEST_BASE_URL &
